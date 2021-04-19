@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:matematik_test/anasayfa.dart';
 import 'package:matematik_test/soru1.dart';
+
 void main() {
   runApp(MaterialApp(
     title: "test",
@@ -7,7 +9,7 @@ void main() {
     theme: ThemeData(
       primarySwatch: Colors.blueGrey,
     ),
-    home: soru1(),
+    home: anasayfa(),
   ));
 }
 
